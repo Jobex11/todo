@@ -1,0 +1,26 @@
+======  TODO APPLICATION WITH  NEXT14 =====
+Time => 43:12
+
+=====  SETTING UP OUR SERVER =====
+
+//mongodb setup 
+-username: jobinson
+-password: 2109526166 
+-database access : 0.0.0.0(all can access) 
+
+ ====setup ==== 
+ 
+ - added eslint and was not added
+ -the public folder was deleted and favicon 
+ -change page to home
+
+=== NPM INSTALLATION ===
+-npx create-react-app@latest . 
+[created nextapp at default directory] 
+-npm install prisma --save-dev 
+[installing of prisma]
+-npx prisma init --datasource-provider mongodb
+-npx i clsx react-icons
+-npx prisma generate 
+[loaded .env from Prisma]
+[loaded prisma\schema.prisma] 
