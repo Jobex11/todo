@@ -1,3 +1,21 @@
+/*
+import Form from "../ui/Form";
+import Button from "../ui/Button";
+import { AiOutlineCheckCircle } from "react-icons/ai";
+import Input from "../ui/Input";
+const ChangeTodo = ({ todo }) => {
+  return (
+    <Form>
+      <Input name="inputId" value={todo.id} type="hidden" />
+      <Button actionButton type="submit" text={<AiOutlineCheckCircle />} />
+    </Form>
+  );
+};
+
+export default ChangeTodo;
+
+*/
+
 import { todoStatus } from "@/app/actions/todoActions";
 import Form from "../ui/Form";
 import Button from "../ui/Button";
@@ -14,11 +32,7 @@ const ChangeTodo = ({ todo }: { todo: todoType }) => {
         type="hidden"
       />
 
-      <Button
-        actionButton
-        type="submit"
-        text={<AiOutlineCheckCircle />}
-      />
+      <Button actionButton type="submit" text={<AiOutlineCheckCircle />} />
     </Form>
   );
 };

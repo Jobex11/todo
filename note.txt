@@ -1,5 +1,5 @@
 ======  TODO APPLICATION WITH  NEXT14 =====
-Time => 43:12
+Time => 50:19
 
 =====  SETTING UP OUR SERVER =====
 
@@ -8,6 +8,12 @@ Time => 43:12
 -password: 2109526166 
 -database access : 0.0.0.0(all can access) 
 
+
+ ==== changes ===
+ - commented out part of todoactions
+ -
+ -
+ -
  ====setup ==== 
  
  - added eslint and was not added
